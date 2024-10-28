@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* GERAL */
+
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "julius Sans One";
+}
+
+/* ABA DE NAVEGAÇÃO */
+
+.Home {
+  header {
+    display: flex;
+    background-color: #FFD5EC;
+    justify-content: space-between;
+
+    img {
+      width: 90px;
+      margin-left: 20px;
+
+      user-select: none;
+      -webkit-user-drag: none;
+    }
+
+    nav {
+      display: flex;
+      margin-right: 20px;
+      align-items: center;
+      gap: 80px;
+      
+      .login{
+        width: 35px;
+        margin-left: 1px;
+      }
+      
+
+      .links {
+        font-size: large;
+        color: #000;
+        padding: 15px;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+/* CONTEÚDO PRINCIPAL */
+
+.Home {
+  main {
+    display: flex;
+    background-color: #D9D9D9;
+    justify-content: space-between;
+
+    .mulher {
+      width: 48%;
+
+      user-select: none;
+      -webkit-user-drag: none;
+    }
+
+    .imagens {
+      display: flex;
+      align-items: end;
+      padding: 40px;
+      flex-direction: column;
+
+      .letreiro {
+        width: 63%;
+
+        user-select: none;
+        -webkit-user-drag: none;
+      }
+
+      .amitaf {
+        width: 35%;
+        padding-top: 40px;
+
+        user-select: none;
+        -webkit-user-drag: none;
+      }
+    }
+  }
+}
+
+/* Transição (Main2) */
+
+.Home {
+  .transicao {
+    text-align: center;
+    padding: 10px;
+    background-color: #FFD5EC;
+  }
+}
+
+.Home {
+  .sobre {
+    .trio {
+      width: 400px;
+    }
+  }
+
+  .segunda{
+    color: #000;
+    font-family: "Julius Sans One";
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    .centro{
+      text-align: center;
+      padding-bottom: 10%;
+    }
+
+    h1{
+      text-align: center;
+      position: relative;
+      font-size:xx-large;
+    }
+
+    .text{
+      max-width: 600px;
+      font-size: 30px;
+    }
+    
+    p{
+      padding-top: 20px;
+      max-width: 600px;
+      font-size: 30px;
+    }
+
+    span{
+      color: rgb(194, 126, 188);
+    }
+
+    h1{
+      padding: 35px;
+    }
+
+    .mona{
+      width: 546px;
+      height: auto;
+      margin-right: 20px;
+    }
+
+  }
+
+  .procedimentos{
+    font-family: "Julius Sans One";
+    text-align: center;
+    background-color: #FFD5EC;
+
+  }
+  
+}
