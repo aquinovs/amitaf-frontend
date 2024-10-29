@@ -2,3 +2,4 @@ Essa é a versão 0.2.5 do projeto amitaf (frontend)
 -- Adição de conteúdo na pagina principal
 
 Iniciada dia 25/10/2024
+Finalizada dia ??/??/????
